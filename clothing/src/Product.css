@@ -1,0 +1,115 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.pdt{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+.pdt ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.pdt ul li{
+    background-color: #eee;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .45s;
+}
+.pdt ul li:hover{
+    background-color: rgb(7, 22, 134);
+    color: #fff;
+}
+.pdt ul li.Active{
+  /* background-color: #03a9f4; */
+  background-color: rgb(7, 22, 134);
+  color: #fff;
+}
+.ac{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.allclear{
+    background-color: #eee;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .45s;
+    outline: none;
+    border: 0;
+}
+.allclear:hover{
+    background-color: rgb(7, 22, 134);
+    color: #fff;
+}
+.Gallery{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.item{
+    width: 250px;
+    height: 250px;
+    border:  3px solid #eee;
+    margin: 30px;
+    cursor: pointer;
+    transition: all .45s;
+}
+.item:hover{
+    filter: opacity(.8);
+    transform: scale(1.1);
+}
+img{
+
+   width: 100%;
+   height: 100%;
+}
+
+.addtocart{
+    background-color: rgb(8, 30, 99);
+    color: #fff;
+    border: 0;
+    outline: none;
+    padding:5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+.totalcost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(7, 22, 134);
+    color: #fff;
+    outline: none;
+    border: 0;
+}
